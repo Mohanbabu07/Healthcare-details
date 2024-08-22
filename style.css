@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-gender-age, .profile-id {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Info, Medical Details, and Goal Progress */
+.contact-info, .medical-details, .goal-reach {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* Text Styling */
+p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+strong {
+    color: #333;
+}
+
+/* Goal Progress */
+.goal-semi-circle {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background: conic-gradient(#4caf50 0%, #e0e0e0 0% 100%);
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#goal-percentage {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-name {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
